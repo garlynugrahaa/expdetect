@@ -7,19 +7,27 @@
 
 ## 💻 Clone Repository
 ### Clone Repository
-```bash
-git clone https://github.com/thisisgarll/expdetect.git
 ```
-```bash
-cd expdetect
+$ git clone https://github.com/thisisgarll/expdetect.git
+$ cd expdetect
+```
+### Dependencies
+
+To install required dependencies run:
+```
+$ pip install -r requirements.txt
+```
+### Demo
+To run the tracker with the provided detections:
+```
+$ cd src
+$ streamlit run index.py
 ```
 
 ## 📥 Push Repository
-```bash
-git add .
 ```
-```bash
-git commit -m "FEAT : Description"
+$ git add .
+$ git commit -m "FEAT : Description"
 ```
 Commit Information : 
 - ADD (Copy and Paste File)
@@ -29,8 +37,8 @@ Commit Information :
 - FIX (Fixing bugs)
 - DEL (Delete folder, file, or code)
 
-```bash
-git push -u origin branch-name
+```
+$ git push -u origin branch-name
 ```
 
 ## 🧑 Our Team
